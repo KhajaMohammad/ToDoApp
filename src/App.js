@@ -21,12 +21,7 @@ const [showAddTask,setShowAddTask] = useState(false);
    setTasks(tasks.filter((task)=>task.id !== id))
   }
   const [tasks,setTasks] = useState([
-    {
-        id:1,
-        text:'Doctor Appointment',
-        day:'feb 5 at 2:30',
-        reminder : true,
-    }
+   
    
 ]);
 //AddTast 
