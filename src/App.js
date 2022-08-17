@@ -26,19 +26,8 @@ const [showAddTask,setShowAddTask] = useState(false);
         text:'Doctor Appointment',
         day:'feb 5 at 2:30',
         reminder : true,
-    },
-    {
-        id:2,
-        text:'School Appointment',
-        day:'feb 6 at 2:30',
-        reminder : true,
-    },
-    {
-        id:3,
-        text:'Foor Shopping ',
-        day:'feb 5 at 2:30',
-        reminder : false,
     }
+   
 ]);
 //AddTast 
 const addTask = (newtask)=>{
